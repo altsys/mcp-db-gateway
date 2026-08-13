@@ -1,0 +1,9 @@
+{
+  "databaseUrlEnv": "DATABASE_URL",
+  "governance": {
+    "allowedSchemas": ["public"],
+    "allowedTables": ["public.customers", "public.orders"],
+    "maxRows": 100,
+    "statementTimeoutMs": 5000
+  }
+}
